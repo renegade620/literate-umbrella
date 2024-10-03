@@ -1,7 +1,117 @@
-{
+  {
     "books": [
-      { "id": 1, "title": "The Great Gatsby", "author": "F. Scott Fitzgerald" },
-      { "id": 2, "title": "1984", "author": "George Orwell" }
+      {
+        "id": 1,
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "author": "Robert C. Martin",
+        "genre": ["Programming", "Software Engineering"],
+        "price": 2999.99,
+        "description": "A guide to writing clean code.",
+        "image": "/clean_code.jpg",
+        "stock": 20,
+        "reviews": [
+          {
+            "user": "John Doe",
+            "rating": 4.5,
+            "comment": "Amazing book!"
+          },
+          {
+            "user": "Jack Doe",
+            "rating": 1.5,
+            "comment": "AmaZZZZZzzzzzing book!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Python Crash Course: A Hands-On Project-Based Introduction To Programming",
+        "author": "Eric Matthes",
+        "genre": ["Programming", "Python"],
+        "price": 3999.99,
+        "description": "Learn Python from scratch.",
+        "image": "/python_crash_course.jpg",
+        "stock": 30,
+        "reviews": [
+          {
+            "user": "Jane Doe",
+            "rating": 4,
+            "comment": "Amazing book!"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "The Pragmatic Programmer: From Journeyman to Master",
+        "author": "Andrew Hunt, David Thomas",
+        "genre": ["Programming", "Software Engineering"],
+        "price": 3499.5,
+        "description": "Essential advice for every programmer.",
+        "image": "/pragmatic_programmer.jpg",
+        "stock": 18,
+        "reviews": [
+          {
+            "user": "James Doe",
+            "rating": 5,
+            "comment": "Amazing book!"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Cracking the Coding Interview: 189 Programming Questions and Solutions",
+        "author": "Gayle Laakmann McDowell",
+        "genre": ["Programming", "Interview Preparation"],
+        "price": 4299.0,
+        "description": "Prepare for your next coding interview.",
+        "image": "/cracking_the_coding_interview.jpg",
+        "stock": 25,
+        "reviews": [
+          {
+            "user": "Job Doe",
+            "rating": 3,
+            "comment": "Amazing book!"
+          }
+        ]
+      }
+    ],
+  
+    "products": [
+      {
+        "id": 1,
+        "name": "Toothpaste",
+        "price": 2.99,
+        "description": "Minty fresh toothpaste for a bright smile"
+      },
+      {
+        "id": 2,
+        "name": "Shampoo",
+        "price": 4.99,
+        "description": "Nourishing shampoo for all hair types"
+      },
+      {
+        "id": 3,
+        "name": "Soap",
+        "price": 1.99,
+        "description": "Gentle cleansing soap bar"
+      },
+      {
+        "id": 4,
+        "name": "Deodorant",
+        "price": 3.49,
+        "description": "Long-lasting protection against odor"
+      },
+      {
+        "id": 5,
+        "name": "Toilet Paper",
+        "price": 5.99,
+        "description": "Soft and strong toilet paper, pack of 6 rolls"
+      },
+      {
+        "id": 6,
+        "name": "Toiletry bag",
+        "price": 12.99,
+        "description": "Keeps your toiletries organized"
+      }
     ]
   }
   
